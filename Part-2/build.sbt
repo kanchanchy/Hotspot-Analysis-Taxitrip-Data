@@ -3,7 +3,7 @@ import sbt.Keys.{libraryDependencies, scalaVersion, version}
 
 lazy val root = (project in file(".")).
   settings(
-    name := "Hotspot-Part2",
+    name := "Hotspot-Analysis-Part-2",
 
     version := "0.1.0",
 
