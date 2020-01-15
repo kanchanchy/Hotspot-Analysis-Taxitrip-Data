@@ -1,4 +1,4 @@
-# Hotspot-Analysis-Taxitrip-Data
+# Hotspot Analysis using New York Taxitrip Data
 
 This repository performs hotzone and hotspot analysis on New York taxi trip data. The repository has two parts.
 
