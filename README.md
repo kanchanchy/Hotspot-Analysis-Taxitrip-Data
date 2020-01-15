@@ -39,6 +39,6 @@ Only Pick-up Location is considered. The output is the coordinates of top 50 hot
 1. Download yellow_tripdata_2009-01_point.csv from https://drive.google.com/drive/folders/1W4GLKNsGlgXp7fHtDlhHEBdLVw_IuAXh?usp=sharing and place it inside Part-2/data/
 2. Go to Part-2 root folder
 3. Run sbt assembly. You may need to install sbt in order to run this command.
-4. Find the packaged jar in "target/scala-2.11/Hotspot-Analysis-Part2-assembly-0.1.0.jar"
-5. Submit the jar to Spark using Spark command "./bin/spark-submit target/scala-2.11/Hotspot-Analysis-Part2-assembly-0.1.0.jar test/output hotzoneanalysis data/point-hotzone.csv data/zone-hotzone.csv hotcellanalysis data/yellow_tripdata_2009-01_point.csv"
+4. Find the packaged jar in "target/scala-2.11/Hotspot-Analysis-Part-2-assembly-0.1.0.jar"
+5. Submit the jar to Spark using Spark command "./bin/spark-submit target/scala-2.11/Hotspot-Analysis-Part-2-assembly-0.1.0.jar test/output hotzoneanalysis data/point-hotzone.csv data/zone-hotzone.csv hotcellanalysis data/yellow_tripdata_2009-01_point.csv"
 
