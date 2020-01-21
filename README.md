@@ -3,7 +3,7 @@
 This repository performs hotzone and hotspot analysis on New York taxi trip data. The repository has two parts.
 
 # 1. Part-1:
-It writes two User Defined Functions ST_Contains and ST_Within in SparkSQL and use them to do four spatial queries:
+It writes two User Defined Functions ST_Contains and ST_Within in SparkSQL and uses them to do four spatial queries:
 
     Range query: Use ST_Contains. Given a query rectangle R and a set of points P, it finds all the points within R.
     
@@ -25,7 +25,7 @@ It performs hotzone analysis and hotspot analysis on New York taxi Trip data.
 
 # Hotzone analysis
 
-It performs a range join operation on a rectangle datasets and a point dataset. For each rectangle, the number of points located within the rectangle is obtained. The hotter rectangle means that it include more points. So the operation is to calculate the hotness of all the rectangles. The output is all zones with their count, sorted by "rectangle" string in an ascending order.
+It performs a range join operation on a rectangle dataset and a point dataset. For each rectangle, the number of points located within the rectangle is obtained. The hotter rectangle means that it include more points. So the operation is to calculate the hotness of all the rectangles. The output is all zones with their count, sorted by "rectangle" string in an ascending order.
 
 # Hotspot Analysis
 
